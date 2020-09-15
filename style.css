@@ -1,25 +1,30 @@
-body{
-    background-color: cyan;
+.yellow{
+    color:hsl(71, 73%, 54%);
+    font-size: 16px;
+    
 }
 .join{
-    
-    border: 1px solid white;
-    background: white;
-    border-radius:5px;
+    border:1px solid white;
+    background-color: white;
 }
-.down{
-    border: 1px solid hsl(179, 62%, 43%);
-    border-radius: 0 0 5px 5px;
+.primary{
+    color: hsl(179, 62%, 43%);
 }
-.whyus{
-    font-size:14px;
+.muted{
+    color: hsl(200, 2%, 30%);
+}
+.container{
+    margin: 100px auto;
+}
+.tutorial{
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.61);
 }
-.btn-secondary{
+.btn-primary{
     border:1px solid hsl(71, 73%, 54%) !important;
-    background-color: hsl(71, 73%, 54%) !important;
-    border-radius: 5px;
+    background-color:hsl(71, 73%, 54%) !important;
 }
-.btn-secondary:hover{
-    background-color: hsla(71, 73%, 54%, 0.781) !important;
+.btn-primary:hover{
+    border:1px solid hsl(71, 73%, 54%) !important;
+    background-color:hsl(71, 94%, 49%) !important;
 }
